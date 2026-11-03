@@ -5,7 +5,8 @@ while True:
     keuze = input("Product afrekenen, (ja/nee): ")
 
     if keuze == 'nee':
-        print("\nTot ziens! \n")
+        print("\nTot ziens!")
+        print("")
         break
     elif keuze == 'ja':
         def bedrag():
